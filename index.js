@@ -47,7 +47,7 @@ function ThemePlugin(options) {
     const iconRelativePath = path.join(theme, 'icons.scss');
     const iconPath = resolveFilePath(iconRelativePath, options.resolve);
     const iconScss = fs.readFileSync(iconPath, 'utf8');
-    this.iconCss = compileScss('$css-prefix: "next-";\n' + modifyVarsScss + iconScss, [path.dirname(iconPath)]);
+    this.iconCss = compileScss('$css-prefix: "next-" !default;\n' + modifyVarsScss + iconScss, [path.dirname(iconPath)]);
   }
 }
 
