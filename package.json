@@ -1,6 +1,6 @@
 {
   "name": "@alifd/next-theme-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.1.0-beta.1",
   "description": "A webpack plugin for adding normalize css and icon css of theme package.",
   "keywords": [
     "fusion",
@@ -26,10 +26,10 @@
   },
   "dependencies": {
     "resolve": "^1.3.2",
+    "sass": "^1.77.8",
     "webpack-sources": "^1.0.1"
   },
   "peerDependencies": {
-    "node-sass": "^4.5.2",
     "webpack": "^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0"
   },
   "devDependencies": {

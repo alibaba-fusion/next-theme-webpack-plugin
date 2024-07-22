@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const resolver = require('resolve');
-const sass = require('node-sass');
+const sass = require('sass');
 let ConcatSource;
 try {
   ConcatSource = require('webpack/lib/ConcatSource');
